@@ -35,6 +35,12 @@ GEM
       autotest (~> 4.3)
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
+    capistrano (2.5.19)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.0.0)
     capybara (0.3.9)
       culerity (>= 0.2.4)
       mime-types (>= 1.16)
@@ -71,6 +77,7 @@ GEM
     haml-rails (0.2)
       haml (~> 3.0)
       rails (~> 3.0.0.rc)
+    highline (1.6.1)
     hpricot (0.8.2)
     i18n (0.4.1)
     json_pure (1.4.6)
@@ -82,8 +89,15 @@ GEM
       mime-types
       treetop (>= 1.4.5)
     mime-types (1.16)
+    mysql2 (0.2.3)
+    net-scp (1.0.3)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.0.23)
+    net-ssh-gateway (1.0.1)
+      net-ssh (>= 1.99.1)
     nokogiri (1.4.3.1)
-    pg (0.9.0)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.13)
@@ -141,6 +155,7 @@ PLATFORMS
 DEPENDENCIES
   autotest
   autotest-notification
+  capistrano
   capybara
   cucumber-rails
   database_cleaner
@@ -149,7 +164,7 @@ DEPENDENCIES
   haml-rails
   hpricot
   launchy
-  pg
+  mysql2
   rails (= 3.0.0)
   rails3-generators
   rcov
