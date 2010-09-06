@@ -144,4 +144,12 @@
           other: "有 %{count} 个错误发生导致「%{model}」无法被保存。"
         body: "如下字段出现错误："
   
-
+  activerecord:
+    models:
+      account: "账户"
+    attributes:
+      account:
+        email: "邮件地址"
+        password: "密码"
+        password_confirmation: "确认密码"
+        remember_me: "保持登录"

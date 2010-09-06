@@ -1,4 +1,6 @@
 Izool::Application.routes.draw do
+  devise_for :accounts
+
   get "home/index"
 
   # The priority is based upon order of creation:
