@@ -6,7 +6,6 @@ set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 set :user, "zhouliang"
-#set :scm_passphrase, "zhouliang"
 
 ssh_options[:forward_agent] = true  
 ssh_options[:port] = 7788 

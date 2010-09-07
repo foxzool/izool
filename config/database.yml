@@ -35,8 +35,7 @@ production:
   database: izool_production
   pool: 5
   username: root
-  password: "j6G)K@L9n^=lB8lU"
-  socket: /data/mysql/war_db_test/mysql.sock
+  password: ""
 
 cucumber:
   <<: *test
