@@ -9,7 +9,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: r3test_development
+  database: izool_development
   pool: 5
   username: root
   password: "123456"
@@ -22,7 +22,7 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: r3test_test
+  database: izool_test
   pool: 5
   username: root
   password: "123456"
@@ -32,10 +32,11 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: r3test_production
+  database: izool_production
   pool: 5
   username: root
-  password: "123456"
+  password: "j6G)K@L9n^=lB8lU"
+  socket: /data/mysql/war_db_test/mysql.sock
 
 cucumber:
   <<: *test
