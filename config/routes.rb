@@ -1,4 +1,6 @@
 Izool::Application.routes.draw do
+  get "cityhunter/index"
+
   devise_for :accounts
 
   get "home/index"

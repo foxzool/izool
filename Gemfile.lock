@@ -71,6 +71,7 @@ GEM
       rails (>= 3.0.0.beta4)
     ffi (0.6.3)
       rake (>= 0.8.7)
+    geo_ip (0.2.0)
     gherkin (2.1.5)
       trollop (~> 1.16.2)
     haml (3.0.18)
@@ -161,6 +162,7 @@ DEPENDENCIES
   database_cleaner
   devise
   factory_girl_rails
+  geo_ip
   haml-rails
   hpricot
   launchy
